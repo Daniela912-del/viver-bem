@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏠 Casa de Repouso Viver Bem</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar navbar-expand-md shadow-sm" style="background: linear-gradient(90deg, #f1faee 80%, #457b9d 120%); border-radius: 0 0 1rem 1rem;">
+      <div class="container py-2">
+        <a href="#" class="navbar-brand fs-4 d-flex align-items-center gap-2">
+          <span class="d-flex align-items-center">
+            <i class="bi bi-house-heart-fill" style="font-size:2rem; color:#457b9d; margin-right:10px;"></i>
+            <span class="fw-bold" style="color:rgb(7, 5, 61); font-size:1.5rem; letter-spacing:1px;">
+              Casa de Repouso <span style="color:#457b9d;">Viver Bem</span>
+            </span>
+          </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+          aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav ms-auto gap-2">
+            <li class="nav-item">
+              <a href="#inicio" class="nav-link active" style="color:rgb(7, 5, 61); font-weight:500; border-radius:0.5rem; transition:background 0.2s;" onmouseover="this.style.background='#a8dadc';" onmouseout="this.style.background='';">Início</a>
+            </li>
+            <li class="nav-item">
+              <a href="#estrutura" class="nav-link" style="color:rgb(7, 5, 61); font-weight:500; border-radius:0.5rem; transition:background 0.2s;" onmouseover="this.style.background='#a8dadc';" onmouseout="this.style.background='';">Estrutura</a>
+            </li>
+            <li class="nav-item">
+              <a href="#servicos" class="nav-link" style="color:rgb(7, 5, 61); font-weight:500; border-radius:0.5rem; transition:background 0.2s;" onmouseover="this.style.background='#a8dadc';" onmouseout="this.style.background='';">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contato" class="nav-link" style="color:rgb(7, 5, 61); font-weight:500; border-radius:0.5rem; transition:background 0.2s;" onmouseover="this.style.background='#a8dadc';" onmouseout="this.style.background='';">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Banner Principal -->
+    <section id="inicio" class="d-flex align-items-center justify-content-center">
+      <div class="container position-relative text-center">
+        <h1 class="fs-1 mb-3 fw-bold" style="color: #fff; text-shadow: 1px 1px 8px #333;">
+          Bem-vindo à Casa de Repouso Viver Bem
+        </h1>
+        <p class="fs-4 mb-4" style="color: #fff; text-shadow: 1px 1px 8px #333;">
+          Oferecemos um ambiente acolhedor e seguro para o seu ente querido.
+        </p>
+        <a href="#sobre" class="btn btn-light btn-lg shadow-sm">Saiba Mais</a>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="py-5 bg-light">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-5 text-center mb-4 mb-md-0">
+            <img src="img/sobre.jpg" alt="Sobre a Casa de Repouso" class="img-fluid rounded shadow" style="max-width:320px;">
+          </div>
+          <div class="col-md-7">
+            <h2 class="title fs-2 mb-3 d-flex align-items-center" style="color:var(--azul-site);">
+              <i class="bi bi-people-fill me-2"></i> Sobre Nós
+            </h2>
+            <p class="fs-5" style="color:var(--azul-escuro); line-height:1.7;">
+              A <span style="color:var(--azul-site); font-weight:bold;">Casa de Repouso Viver Bem</span> foi criada com o propósito de oferecer um ambiente seguro, acolhedor e humanizado para idosos. Nossa equipe é formada por profissionais experientes e dedicados, que prezam pelo bem-estar físico, emocional e social de cada residente.
+            </p>
+            <ul class="list-unstyled mt-3">
+              <li class="mb-2"><i class="bi bi-check-circle-fill" style="color:var(--azul-site);"></i> Ambiente seguro e confortável</li>
+              <li class="mb-2"><i class="bi bi-check-circle-fill" style="color:var(--azul-site);"></i> Equipe especializada e humanizada</li>
+              <li class="mb-2"><i class="bi bi-check-circle-fill" style="color:var(--azul-site);"></i> Atenção ao bem-estar físico e emocional</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="py-5">
+      <div class="container">
+        <h2 class="title fs-2 mb-4 text-center" style="color:rgb(7, 5, 61);">
+          <i class="bi bi-heart-pulse-fill"></i> Serviços
+        </h2>
+        <div class="row g-4 justify-content-center">
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+              <div class="card-body">
+                <h5 class="card-title"><i class="bi bi-person-badge-fill"></i> Cuidados 24h</h5>
+                <p class="card-text">Equipe de enfermagem sempre disponível para garantir segurança e bem-estar.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+              <div class="card-body">
+                <h5 class="card-title"><i class="bi bi-emoji-smile-fill"></i> Atividades Recreativas</h5>
+                <p class="card-text">Momentos de lazer e terapia para estimular a mente e o corpo.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+              <div class="card-body">
+                <h5 class="card-title"><i class="bi bi-nut-fill"></i> Alimentação Balanceada</h5>
+                <p class="card-text">Cardápio supervisionado por nutricionista, focado na saúde dos residentes.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Estrutura -->
+    <section id="estrutura" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="title fs-2 mb-4 text-center" style="color:rgb(7, 5, 61);">
+          <i class="bi bi-building-fill"></i> Estrutura
+        </h2>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><i class="bi bi-door-open-fill"></i> Quartos individuais e coletivos com acessibilidade</li>
+              <li class="list-group-item"><i class="bi bi-tree-fill"></i> Jardim e área externa para caminhadas</li>
+              <li class="list-group-item"><i class="bi bi-book-fill"></i> Salas de convivência e leitura</li>
+              <li class="list-group-item"><i class="bi bi-thermometer-sun"></i> Ambiente climatizado e monitorado</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="py-5">
+      <div class="container">
+        <h2 class="title fs-2 mb-4 text-center" style="color:rgb(7, 5, 61);">
+          <i class="bi bi-envelope-fill"></i> Contato
+        </h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-center">
+            <p><i class="bi bi-geo-alt-fill"></i> Rua das Acácias, 123 – São Paulo/SP</p>
+            <p><i class="bi bi-telephone-fill"></i> (11) 99999-9999</p>
+            <p><i class="bi bi-envelope-fill"></i> contato@viverbem.com.br</p>
+            <p>Entre em contato para agendar uma visita e conhecer nosso espaço!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="py-4 text-center" style="background-color:rgb(7, 5, 61); color:white;">
+    <div class="container">
+      <div class="row justify-content-center mb-2">
+        <div class="col-auto">
+          <i class="bi bi-geo-alt-fill"></i> Rua das Acácias, 123 – São Paulo/SP
+        </div>
+        <div class="col-auto">
+          <i class="bi bi-telephone-fill"></i> (11) 99999-9999
+        </div>
+        <div class="col-auto">
+          <i class="bi bi-envelope-fill"></i> contato@viverbem.com.br
+        </div>
+      </div>
+      <hr style="border-color: rgba(255,255,255,0.2);">
+      <p class="mb-1">
+        <i class="bi bi-house-heart-fill" style="color:#457b9d;"></i>
+        &copy; 2025  Casa de Repouso Viver Bem. Todos os direitos reservados.
+        Desenvolvido por <strong>Daniela Menezes </strong>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
